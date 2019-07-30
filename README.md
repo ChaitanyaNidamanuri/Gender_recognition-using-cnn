@@ -5,7 +5,7 @@ Image Pixel data is loaded in x.pickle(features) and y.pickle(labels - men , wom
 
 Download Image DataSets -> https://www.kaggle.com/playlist/men-women-classification (just 2500 images)
 
-added wiki ppl face datasets as well as X.pickle
+i collected data from various sources like wiki ppl face datasets and some other
 
 nearly 15k images of men and women loaded_data in X.pickle(features) and labled them in y.pickle 
 
