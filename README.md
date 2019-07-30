@@ -5,6 +5,9 @@ Image Pixel data is loaded in x.pickle(features) and y.pickle(labels - men , wom
 
 Download Image DataSets -> https://www.kaggle.com/playlist/men-women-classification
 
+mkdir Datasets <- mv men women(Image Datasets) 
+
+
 load_data.py -> preparing dataset(load image_data(men, women datasets) ,resize-> cv2.resize(img_array, (IMG_SIZE, IMG_SIZE))  ,create_training_data, shuffle(training_data),  reshape(-1, IMG_SIZE, IMG_SIZE, 1))
 
 cnn_model.py -> model trining using 3-conv_layers 64-layer_size 0-dense layers
