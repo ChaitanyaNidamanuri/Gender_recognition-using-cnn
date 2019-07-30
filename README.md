@@ -12,7 +12,7 @@ nearly 15k images of men and women loaded_data in X.pickle(features) and labled 
 mkdir Datasets <- mv men women(Image Datasets) 
 
 
-load_data.py -> preparing dataset(load image_data(men, women datasets) ,resize-> cv2.resize(img_array, (IMG_SIZE, IMG_SIZE))  ,create_training_data, shuffle(training_data),  reshape(-1, IMG_SIZE, IMG_SIZE, 1))
+load_data.py -> preparing dataset, resize(50*50) as gray_scale images, preparing trining datasets as x features for y labels,shuffle the train data, rshaping btw(-1,50*50,1),using pickle we can store variable data like x and y so that we can user these train data to train our model in cnn_model.py 
 
 cnn_model.py -> model trining using 3-conv_layers 64-layer_size 0-dense layers
 
