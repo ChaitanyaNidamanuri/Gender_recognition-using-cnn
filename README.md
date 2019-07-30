@@ -3,7 +3,11 @@ dependices -> pip install tensorflow keras matplotlib opencv pandas pickle
 
 Image Pixel data is loaded in x.pickle(features) and y.pickle(labels - men , women)
 
-Download Image DataSets -> https://www.kaggle.com/playlist/men-women-classification
+Download Image DataSets -> https://www.kaggle.com/playlist/men-women-classification (just 2500 images)
+
+added wiki ppl face datasets as well 
+
+nearly 15k images of men and women loaded_data in X.pickle(features) and labled them in y.pickle 
 
 mkdir Datasets <- mv men women(Image Datasets) 
 
